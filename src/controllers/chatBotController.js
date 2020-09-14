@@ -193,10 +193,14 @@ function handleMessage(sender_psid, message) {
            //send thanks message
            callSendAPI(sender_psid,'No Problem');
        }
-        if(entityChosen === "wit$bye"){
-            //send bye message
-            callSendAPI(sender_psid,'Peace');
-        }
+       if(entityChosen === "wit$bye"){
+           //send bye message
+           callSendAPI(sender_psid,'Peace');
+       }
+       if(entityChosen === "wit$url:url"){
+           //send bye message
+           callSendAPI(sender_psid,'Nice video thanks for sharing');
+       }
     }
 }
 
