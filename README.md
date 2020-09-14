@@ -16,6 +16,7 @@ You can set up this project by following these steps below or an easier way, I c
 - Deploy app to Heroku ( need to setup dev dependencies:
 heroku config:set NPM_CONFIG_PRODUCTION=false
 )
+You gotta change this my boi
 - Config env variables (setup dev dependencies)
 #### 2.2 Facebook Page
 - Create a Facebook Page
