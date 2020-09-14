@@ -197,7 +197,7 @@ function handleMessage(sender_psid, message) {
            //send bye message
            callSendAPI(sender_psid,'Peace');
        }
-       if(entityChosen === "wit$url:url"){
+       if(entityChosen === "wit$url:youtube.com"){
            //send bye message
            callSendAPI(sender_psid,'Nice video thanks for sharing');
        }
