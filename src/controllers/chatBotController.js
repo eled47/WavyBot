@@ -167,7 +167,7 @@ function handleMessage(sender_psid, message) {
     // id like button: sticker_id 369239263222822
 
     if( message && message.attachments && message.attachments[0].payload){
-        callSendAPI(sender_psid, "Thank you for watching my video !!!");
+        callSendAPI(sender_psid, "Thank you for coming to my chat bot !!!");
         callSendAPIWithTemplate(sender_psid);
         return;
     }
